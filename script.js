@@ -45,3 +45,14 @@ const shoes = 300 * 1;
 const toys = 100 * 5;
 const shirts = 150 NONE_SELECTED;
 const pens = 5 * NONE_SELECTED;
+
+if (location === "RSA" ){
+  shipping = 400;
+  currency = "R";
+}
+
+else if (loation === "NAM"){
+shipping = 600;
+}else{
+  shipping =800;
+}
